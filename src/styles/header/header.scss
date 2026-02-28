@@ -1,0 +1,41 @@
+@use "../colors/colors.scss" as c;
+
+
+nav{
+    background-color:  c.$secondary;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+
+    >h2{
+        text-transform: uppercase;
+        color: c.$primary;
+    }
+    >div{
+        display: flex;
+        align-items: center;
+
+        >a{
+            color: c.$primary;
+            font-size: 1rem;
+            margin: 0 1rem;
+            transition: all 0.3s;
+            &:hover{
+                opacity: .5;
+            }
+            >p{
+                position: absolute;
+                background-color: c.$tertiary;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                font: 900 0.7rem "Roboto" ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transform: translate(80%,-80%);
+            }
+        }
+    }
+}

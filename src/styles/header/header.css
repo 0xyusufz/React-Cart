@@ -1,0 +1,36 @@
+nav {
+  background-color: rgb(237, 86, 21);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+nav > h2 {
+  text-transform: uppercase;
+  color: rgb(29, 29, 29);
+}
+nav > div {
+  display: flex;
+  align-items: center;
+}
+nav > div > a {
+  color: rgb(29, 29, 29);
+  font-size: 1rem;
+  margin: 0 1rem;
+  transition: all 0.3s;
+}
+nav > div > a:hover {
+  opacity: 0.5;
+}
+nav > div > a > p {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font: 900 0.7rem "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(80%, -80%);
+}/*# sourceMappingURL=header.css.map */
