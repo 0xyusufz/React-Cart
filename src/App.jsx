@@ -8,6 +8,7 @@ import "./styles/app/app.scss";
 import "./styles/colors/colors.scss"
 import "./styles/header/header.scss"
 import "./styles/home/home.scss"
+import './styles/cart/Cart.scss'
 import Cart from "./components/Cart";
 
 const App = () => {
